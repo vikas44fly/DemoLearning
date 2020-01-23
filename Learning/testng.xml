@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+       <listener class-name="listeners.TestNGListeners"/>
+  </listeners>
+  
+  <test  name="Functional Regression">
+  <!-- 
+  <groups>
+  
+  <run>
+  
+  <include name="Smoke" />
+  
+  </run>
+   
+  
+  </groups>
+   -->
+  
+  <!-- 
+    <classes>
+    
+     <class name= "rough.Practice" />
+     
+    </classes>
+     -->
+     
+     
+     <packages>
+     
+     <package name= "tests" />
+     </packages>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

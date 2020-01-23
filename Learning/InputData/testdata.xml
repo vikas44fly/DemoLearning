@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testdata>
+<LoginPage type = "loginpage">
+	<username>John Doe</username>
+	<password>ThisIsNotAPassword</password>
+	<invalidPassword>ThisIsAPassword</invalidPassword>
+	
+</LoginPage>
+<HomePage type = "homepage">
+	<facilityName>Hongkong CURA Healthcare Center</facilityName>
+	<programName>Medicaid</programName>
+	<visitDate>20/09/2019</visitDate>
+	<comments>Test-Make an appointment</comments>
+	<confimationMessage>Appointment Confirmation</confimationMessage>
+</HomePage>
+
+
+</testdata> 
+

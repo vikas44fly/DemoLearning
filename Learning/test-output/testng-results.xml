@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20839" started-at="2020-01-16T18:47:54 PST" finished-at="2020-01-16T18:48:15 PST">
+    <groups>
+    </groups>
+    <test name="Functional Regression" duration-ms="20839" started-at="2020-01-16T18:47:54 PST" finished-at="2020-01-16T18:48:15 PST">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@6f3b5d16]" name="setup" is-config="true" duration-ms="6180" started-at="2020-01-16T18:47:48 PST" finished-at="2020-01-16T18:47:54 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startExtentReport()[pri:0, instance:tests.LoginTest@6f3b5d16]" name="startExtentReport" is-config="true" duration-ms="142" started-at="2020-01-16T18:47:54 PST" finished-at="2020-01-16T18:47:55 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtentReport -->
+        <test-method status="PASS" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@6f3b5d16]" name="createExtentTest" is-config="true" duration-ms="10779" started-at="2020-01-16T18:47:55 PST" finished-at="2020-01-16T18:48:05 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.validateLoginFunctionality() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method status="PASS" signature="validateLoginFunctionality()[pri:0, instance:tests.LoginTest@6f3b5d16]" name="validateLoginFunctionality" duration-ms="3866" started-at="2020-01-16T18:48:05 PST" finished-at="2020-01-16T18:48:09 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@6f3b5d16]" name="getResult" is-config="true" duration-ms="1" started-at="2020-01-16T18:48:09 PST" finished-at="2020-01-16T18:48:09 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLoginFunctionality status=SUCCESS method=LoginTest.validateLoginFunctionality()[pri:0, instance:tests.LoginTest@6f3b5d16] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="createExtentTest(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@6f3b5d16]" name="createExtentTest" is-config="true" duration-ms="2483" started-at="2020-01-16T18:48:09 PST" finished-at="2020-01-16T18:48:12 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.validateInvalidLoginFunctionality() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentTest -->
+        <test-method status="PASS" signature="validateInvalidLoginFunctionality()[pri:1, instance:tests.LoginTest@6f3b5d16]" name="validateInvalidLoginFunctionality" duration-ms="3152" started-at="2020-01-16T18:48:12 PST" finished-at="2020-01-16T18:48:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidLoginFunctionality -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@6f3b5d16]" name="getResult" is-config="true" duration-ms="0" started-at="2020-01-16T18:48:15 PST" finished-at="2020-01-16T18:48:15 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateInvalidLoginFunctionality status=SUCCESS method=LoginTest.validateInvalidLoginFunctionality()[pri:1, instance:tests.LoginTest@6f3b5d16] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="reportclosewindows()[pri:0, instance:tests.LoginTest@6f3b5d16]" name="reportclosewindows" is-config="true" duration-ms="376" started-at="2020-01-16T18:48:15 PST" finished-at="2020-01-16T18:48:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportclosewindows -->
+        <test-method status="PASS" signature="quitSetup()[pri:0, instance:tests.LoginTest@6f3b5d16]" name="quitSetup" is-config="true" duration-ms="1" started-at="2020-01-16T18:48:15 PST" finished-at="2020-01-16T18:48:15 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitSetup -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Functional Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
